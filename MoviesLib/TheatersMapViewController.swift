@@ -27,7 +27,9 @@ class TheatersMapViewController: UIViewController {
         
         mapView.delegate = self
         
-        //loadXML()
+        loadXML()
+        
+        //como recuperar localização baseado em endereço
         showAddress("Avenida Paulista, 1106, São Paulo")
         
         requestUserLocationAuthorization()
